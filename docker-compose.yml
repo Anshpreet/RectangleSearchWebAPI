@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  rectanglesearchapi:
+    image: ${DOCKER_REGISTRY-}rectanglesearchapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile

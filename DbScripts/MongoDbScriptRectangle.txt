@@ -1,0 +1,29 @@
+﻿// Create a new database
+use mydatabase;
+
+// Create a collection for rectangles
+db.createCollection("rectangles");
+
+// Insert 200 rectangle data entries
+var rectangles = [];
+for (var i = 1; i <= 200; i++) {
+  var rectangle = {
+    name: "Rectangle " + i,
+    x: getRandomCoordinate(),
+    y: getRandomCoordinate(),
+    width: getRandomDimension(),
+    height: getRandomDimension()
+  };
+  rectangles.push(rectangle);
+}
+
+db.rectangles.insertMany(rectangles);
+
+// Helper functions to generate random coordinates and dimensions
+function getRandomCoordinate() {
+  return Math.floor(Math.random() * 100) + 1; // Adjust range as needed
+}
+
+function getRandomDimension() {
+  return Math.floor(Math.random() * 50) + 1; // Adjust range as needed
+}

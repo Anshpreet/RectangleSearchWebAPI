@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleSearchApi", "RectangleSearchApi.csproj", "{6EBB266A-1E30-4D01-BD38-3D9B66571FE3}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E93036C-F5BE-48D9-A01D-D67D613A5703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EBB266A-1E30-4D01-BD38-3D9B66571FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBB266A-1E30-4D01-BD38-3D9B66571FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBB266A-1E30-4D01-BD38-3D9B66571FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBB266A-1E30-4D01-BD38-3D9B66571FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E93036C-F5BE-48D9-A01D-D67D613A5703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E93036C-F5BE-48D9-A01D-D67D613A5703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E93036C-F5BE-48D9-A01D-D67D613A5703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E93036C-F5BE-48D9-A01D-D67D613A5703}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AEA4414-6DC7-4ADC-9366-EEF3F2DC08D3}
+	EndGlobalSection
+EndGlobal
